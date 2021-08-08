@@ -1,0 +1,16 @@
+﻿<Application x:Class="云动加速器.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:云动加速器"
+             StartupUri="Views/MainView.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Path.xaml" />
+                <ResourceDictionary Source="Styles/Color.xaml" />
+                <ResourceDictionary Source="Styles/ScrollViewer.xaml" />
+                <ResourceDictionary Source="Styles/SystemButtonStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
